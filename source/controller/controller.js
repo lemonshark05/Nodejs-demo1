@@ -1,8 +1,3 @@
-// ****************************************************************
-// Controller functions to get the requested data from the models,
-// create an HTML page displaying the data, and return it to the
-// user to view in the browser.
-// ****************************************************************
 import path from 'path';
 const __dirname = path.resolve();
 // show html page
@@ -40,13 +35,13 @@ export const getMonthsName = (req, res) => {
 }
 // get list of people -- This can come from a database and what's defined in model.js
 // but for the purspuse of this demo, I'm going o juts type a couple of names
-export const getPeople = (req, res) => {
+export const getIPeople = (req, res) => {
     res.json([
         {
-            FirstName: 'Yann',
-            LastName: 'Mulonda',
+            FirstName: 'Zhimin',
+            LastName: 'Meng',
             title: 'Software Engineer',
-            LinkedIn: 'https://www.linkedin.com/in/yannmjl/'
+            LinkedIn: 'https://www.linkedin.com/in/zhimin-meng/'
         },
         {
             FirstName: 'Bernard',
