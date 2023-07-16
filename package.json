@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-demo1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "My class assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest",
+    "build": "echo Test build completed! No package upload."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemonshark05/Nodejs-demo1.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "author": "Zhimin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lemonshark05/Nodejs-demo1/issues"
+  },
+  "homepage": "https://github.com/lemonshark05/Nodejs-demo1#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.18.2",
+    "jest": "^29.6.1"
+  }
+}
